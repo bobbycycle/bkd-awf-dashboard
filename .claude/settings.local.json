@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx tsx:*)",
+      "Bash(curl -s http://localhost:3001/api/v1/health)",
+      "Bash(curl -s http://localhost:3001/api/v1/events/history?limit=2)",
+      "Bash(curl -s \"http://localhost:3001/api/v1/events/history?limit=2\")",
+      "Bash(curl -s \"http://localhost:3001/api/v1/stats\")",
+      "Bash(python3 -m json.tool)",
+      "Bash(pkill -f \"tsx src/index\")",
+      "Bash(npx tsc:*)",
+      "Bash(npm run:*)",
+      "Bash(curl -s http://localhost:3001/)",
+      "Bash(git rm *)"
+    ]
+  }
+}
