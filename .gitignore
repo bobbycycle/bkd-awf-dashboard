@@ -29,6 +29,7 @@ pnpm-debug.log*
 .DS_Store
 Thumbs.db
 .idea/
+.claude/
 .vscode/
 *.swp
 *.swo
